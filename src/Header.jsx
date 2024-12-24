@@ -16,8 +16,8 @@ function Header() {
     <div className="flex items-center">
     <img src={msaImage} className='w-[20%] h-24 rounded-[50%]'/>
           <div>
-          <h1 className="ml-4 lg:text-black text-xl font-bold">Muslim Students Association</h1>
-          <small className="ml-4 lg:text-black font-bold">Begum Rokeya University</small>
+          <h1 className="ml-4 text-black text-xl font-bold">Muslim Students Association</h1>
+          <small className="ml-4 text-black font-bold">Begum Rokeya University</small>
           </div>
         </div>
       <div className="navbar-center text-black hidden lg:flex">
@@ -32,7 +32,7 @@ function Header() {
       <div>
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="black">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </label>
@@ -52,7 +52,7 @@ function Header() {
           <input
             type="text"
             placeholder="Search here"
-            className="bg-gray-400 placeholder:text-white lg:bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
+            className=" placeholder:text-black bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
           />
         </div>
       </div>

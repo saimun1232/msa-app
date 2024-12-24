@@ -15,7 +15,7 @@ const Carrosel = ({ items }) => {
   };
 
   return (
-    <div className="carousel rounded-md relative m-10 shadow-customInset">
+    <div className="carousel rounded-md m-10">
       
       <div  className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide4" onClick={prevSlide} className="btn btn-circle">❯</a>

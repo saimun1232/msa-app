@@ -11,7 +11,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Bottom = () => {
   return (
-    <footer className="rounded-md mt-3 shadow-customInset bg-[]" style={{ backgroundColor: "", color: "black", padding: "20px 0" }}>
+    <footer className="rounded-md mt-3" style={{ backgroundColor: "", color: "black", padding: "20px 20px" }}>
       <div className=" justify-center lg:flex lg:justify-around">
         {/* Get In Touch Section */}
         <div className="footer-section">

@@ -16,7 +16,7 @@ function Header() {
     <div className="flex items-center">
     <img src={msaImage} className='w-[20%] h-24 rounded-[50%]'/>
           <div>
-          <h1 className="ml-4 text-black text-xl font-bold">Muslim Students Association</h1>
+          <h1 className="ml-4 text-black lg:text-xl font-bold">Muslim Students Association</h1>
           <small className="ml-4 text-black font-bold">Begum Rokeya University</small>
           </div>
         </div>

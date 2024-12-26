@@ -12,6 +12,7 @@ import Bottom from './Bottom'
 import Carrosel from './Carrosel'
 import Container from './Container'
 import Program from './Program'
+import Nheader from './Nheader'
 
 function App() {
  
@@ -27,7 +28,7 @@ function App() {
   
    return (
     <>
-     <Header></Header>
+     <Nheader></Nheader>
      <Carrosel items={items}></Carrosel>
      <Container></Container>
      <Program></Program>

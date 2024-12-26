@@ -48,7 +48,7 @@ export default function Program() {
           {programs.map((program, index) => (
             <div
               key={index}
-              className="border shadow-customInset border-gray-200 rounded-lg shadow-md p-6 bg-white "
+              className="border bg-[#ecf0f3] shadow-customInset border-gray-200 rounded-lg shadow-md p-6 "
             >
               <h3 className="text-lg font-semibold text-gray-800 mb-4">
                 {program.title}

@@ -11,7 +11,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Bottom = () => {
   return (
-    <footer className="rounded-md mt-3" style={{ backgroundColor: "", color: "black", padding: "20px 20px" }}>
+    <footer className="rounded-md mt-3 bg-[#ecf0f3] shadow-customInset" style={{color: "black", padding: "20px 20px" }}>
       <div className=" justify-center lg:flex lg:justify-around">
         {/* Get In Touch Section */}
         <div className="footer-section">
@@ -65,7 +65,7 @@ const Bottom = () => {
       </div>
 
       {/* Footer Bottom */}
-        <p className="flex mt-6 justify-center items-center gap-3"><FaRegCopyright/> Muslim Students Association, All Right Reserved.</p>
+        <p className="flex mt-6 justify-center items-center gap-3"><FaRegCopyright/> Muslim Students Association<br/> All Right Reserved.</p>
     </footer>
   );
 };

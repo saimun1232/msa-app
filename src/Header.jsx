@@ -12,12 +12,12 @@ function Header() {
   {/* Navbar section start */}
   <nav className="container mx-auto mb-5  ">
 
-    <div className="navbar  shadow-customInset rounded-full m-0 flex justify-between px-14 py-6">
+    <div className="navbar  shadow-customInset rounded-full m-0 flex justify-around px-4 py-2">
     <div className="flex items-center">
     <img src={msaImage} className='w-[20%] h-24 rounded-[50%] hidden lg:block'/>
           <div>
-          <h1 className="ml-4 text-black lg:text-xl font-bold">Muslim Students Association</h1>
-          <small className="ml-4 text-black font-bold">Begum Rokeya University</small>
+          <h1 className="lg:ml-4 text-black lg:text-xl font-bold">Muslim Students Association</h1>
+          <small className="lg:ml-4 text-black font-bold">Begum Rokeya University</small>
           </div>
         </div>
       <div className="navbar-center text-black hidden lg:flex">

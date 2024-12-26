@@ -48,12 +48,12 @@ function Header() {
         
       </div>
       <div>
-        <div className="relative">
+        <div className="relative hidden lg:block">
           <i className="absolute text-black lg:left-[180px] top-[35%]"><FaSearch></FaSearch></i>
           <input
             type="text"
             placeholder="Search here"
-            className=" hidden lg:block placeholder:text-black bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
+            className=" placeholder:text-black bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
           />
         </div>
       </div>

@@ -2,6 +2,7 @@ import './index.css'
 import msaImage from './assets/msa.png';
 import Carrosel from './Carrosel';
 import Bottom from './Bottom';
+import { FaSearch } from "react-icons/fa";
 function Header() {
  
 
@@ -48,11 +49,11 @@ function Header() {
       </div>
       <div>
         <div className="relative">
-          <i className="fa-solid absolute left-[120px] lg:left-[180px] top-[35%] fa-magnifying-glass"></i>
+          <i className="absolute text-black lg:left-[180px] top-[35%]"><FaSearch></FaSearch></i>
           <input
             type="text"
             placeholder="Search here"
-            className=" placeholder:text-black bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
+            className=" hidden lg:block placeholder:text-black bg-[#F85559] lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto"
           />
         </div>
       </div>
